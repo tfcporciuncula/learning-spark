@@ -2,7 +2,7 @@ package xyz.javalab.spark;
 
 import static spark.Spark.*;
 
-public class $3_Filters {
+public class $3_Filter {
 
     private static boolean isAuthenticated;
 

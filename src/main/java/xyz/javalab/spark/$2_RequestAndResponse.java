@@ -14,7 +14,7 @@ public class $2_RequestAndResponse {
         get("/redirect",  (req, res) -> {
             res.cookie("REDIRECT", "TRUE");
             res.redirect("/request", 301);
-            return "";
+            return null;
         });
 
         get("/forbidden", (req, res) -> {

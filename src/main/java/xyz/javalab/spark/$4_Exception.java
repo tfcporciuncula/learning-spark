@@ -1,9 +1,8 @@
 package xyz.javalab.spark;
 
-import static spark.Spark.exception;
-import static spark.Spark.get;
+import static spark.Spark.*;
 
-public class $4_Exceptions {
+public class $4_Exception {
 
     public static void main(String[] args) {
         /*

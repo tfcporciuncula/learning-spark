@@ -2,7 +2,7 @@ package xyz.javalab.spark;
 
 import static spark.Spark.*;
 
-public class $1_Routes {
+public class $1_Route {
 
     public static void main(String[] args) {
         /*
