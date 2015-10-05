@@ -21,6 +21,7 @@ public class $1_Route {
          * Named parameters can be used.
          */
         get("/param/:name", (req, res) -> "Name = " + req.params("name"));
+        get("/param/:name/:id", (req, res) -> "Name = " + req.params("name") + "; Id = " + req.params("id"));
 
         /*
          * Wildcards can also be used (for mapping and also as parameters).

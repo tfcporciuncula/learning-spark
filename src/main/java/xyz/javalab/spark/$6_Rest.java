@@ -2,7 +2,7 @@ package xyz.javalab.spark;
 
 import com.google.gson.Gson;
 
-import static spark.Spark.get;
+import static spark.Spark.*;
 
 public class $6_Rest {
 

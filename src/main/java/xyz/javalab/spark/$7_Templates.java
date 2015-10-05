@@ -6,7 +6,7 @@ import spark.template.thymeleaf.ThymeleafTemplateEngine;
 import java.util.HashMap;
 import java.util.Map;
 
-import static spark.Spark.get;
+import static spark.Spark.*;
 
 public class $7_Templates {
 
